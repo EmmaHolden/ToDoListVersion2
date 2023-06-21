@@ -1,0 +1,131 @@
+body {
+    background-color: #ACD7EC; 
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2 {
+    color: white;
+}
+
+li {
+    font-size: x-large;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+input {
+    font-size: x-large;
+}
+
+label {
+    font-size: x-large;
+}
+
+button {
+    border-radius: 24px;
+}
+
+.selectedItem {
+    text-decoration: line-through
+}
+  
+.unselectedItem {
+    text-decoration: none
+}
+
+.buttonUnpressed {
+    background-color: #8FC93A;
+    margin: 2px;
+    font-size: 18px;
+}
+
+.buttonPressed {
+    background-color: #E4CC37;
+    margin: 2px;
+    font-size: 18px;
+    box-shadow: 0 2px #dcf40555;
+    transform: translateY(1px);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #84DCC6;
+    border: 0.5px solid black;  
+
+}
+
+.input {
+    margin-left: 10px;
+}
+
+.box {
+    display: flex;
+}
+
+.box .list {
+    display: flex;
+    min-width: 100%;
+}
+
+.mainContainer {
+    border: 1px solid black;  
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    background-color:#8B95C9;
+    border: 0.5px solid black; 
+
+}
+
+.middleContainer {
+    border: 0.5px solid black; 
+    background-color: #D6EDFF;
+}
+
+.deleteContainer {
+    display: flex;
+    justify-content: center;   
+}
+
+.counterContainer {
+    display: flex;
+    justify-content: center;
+    background-color:#8B95C9;
+    border: 0.5px solid black; 
+
+}
+
+#deleteButton {
+    background-color: red;
+    margin: 2px;
+    font-size: 18px;
+}
+
+#deleteAllButton {
+    background-color: red;
+    margin: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#editButton {
+    background-color:  #FB5607;
+    margin: 2px;
+    font-size: 20px;
+}
+
+#cancelEditingButton {
+    background-color: red;
+}
+
+#submitButton {
+    background-color: red;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+}
